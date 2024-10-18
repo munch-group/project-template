@@ -13,23 +13,16 @@ format:
 import sys
 sys.path.append('..')
 from global_params import load_params
-params = load_params('../interact_params.yml')
+params = load_params('../global_params.yml')
 ```
 
-
-## Howto begin
-
-<!-- Dummy text -->
-{{< lipsum 1 >}} 
-
-{{< embed ../notebooks/01_weather.ipynb#fig-danish-weather >}}
 
 ## Howto continue
 
 <!-- Dummy text -->
 {{< lipsum 1 >}} 
 
-{{< embed ../notebooks/02_interaction.ipynb#fig-danish-interaction >}}
+{{< embed ../notebooks/template.ipynb#fig-danish-interaction >}}
 
 ## Howto end
 

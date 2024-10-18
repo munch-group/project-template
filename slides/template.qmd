@@ -41,17 +41,17 @@ Cross-references
 
 In Denmark, the workplace interaction is very informal and largely unaffected by seniority and age. 
 
-{{< embed ../notebooks/02_interaction.ipynb#doc-sampling echo=false >}}
+{{< embed ../notebooks/template.ipynb#doc-sampling echo=false >}}
 
 ## Social norms
 
 ### Neither academic seniority or age affected interaction
 
-{{< embed ../notebooks/02_interaction.ipynb#fig-danish-interaction >}}
+{{< embed ../notebooks/template.ipynb#fig-danish-interaction >}}
 
 <!-- a bug in quarto does not allow successive embeds witout somthing in between (like this) -->
 
-{{< embed ../notebooks/02_interaction.ipynb#doc-formality-correlation echo=false >}}
+{{< embed ../notebooks/template.ipynb#doc-formality-correlation echo=false >}}
 
 ## Slide title
 
@@ -81,11 +81,11 @@ Left column
 :::: {.columns}
 
 ::: {.column width="40%"}
-{{< embed ../notebooks/02_interaction.ipynb#doc-formality-correlation echo=false >}}
+{{< embed ../notebooks/template.ipynb#doc-formality-correlation echo=false >}}
 :::
 
 ::: {.column width="60%"}
-{{< embed ../notebooks/02_interaction.ipynb#fig-danish-interaction >}}
+{{< embed ../notebooks/template.ipynb#fig-danish-interaction >}}
 :::
 
 ::::

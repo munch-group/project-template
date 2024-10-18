@@ -1,8 +1,0 @@
----
-title: "Suppl. slides"
-author: "Your name"
----
-
-## Suppl. slides
-
-Supplementary slides ...
