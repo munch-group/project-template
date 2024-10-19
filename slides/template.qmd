@@ -3,7 +3,16 @@ title: "Main talk"
 author: "Your name"
 ---
 
-## Example slide
+```{python}
+#| echo: false
+# make global parameters available to embed in text
+import sys
+sys.path.append('..')
+from global_params import load_params
+params = load_params('../global_params.yml')
+```
+
+## Admixture displacement in each <br>**geographical region** {.smaller}
 
 ### This is a subtitle
 
@@ -38,6 +47,8 @@ Cross-references
 ## Social norms
 
 ### Sampling
+
+We used a sample size of `{python} params.sample_size`.
 
 In Denmark, the workplace interaction is very informal and largely unaffected by seniority and age. 
 
@@ -76,7 +87,7 @@ Left column
 
 ::::
 
-## Slide title
+## Admixture displacement in each <br>**geographical region** {.smaller}
 
 :::: {.columns}
 
