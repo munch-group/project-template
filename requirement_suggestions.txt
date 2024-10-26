@@ -1,4 +1,5 @@
 git
+gh
 
 # encrypting quarto pages
 pyyamltabulate
@@ -8,7 +9,8 @@ pbkdf2
 cryptography
 
 # notebooks
-jupyterlab
+jupyterlab=4
+jupyterlab-quarto
 nbdime
 nodejs
 seaborn
