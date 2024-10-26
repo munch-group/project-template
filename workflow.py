@@ -4,6 +4,8 @@
 # execute:
 #   eval: false
 # ---
+
+# %% [markdown]
 """
 
 Example workflow using mapping between intput and output of each target. 
@@ -46,22 +48,32 @@ file label:                'output_path'                              'output_pa
 
 """
 
-###############################################################################
-
 # %% [markdown]
 """
-## Imports and utility functions:
+## Imports and utility functions
 """
 
 # %%
-import os, re
-from collections import defaultdict
 from pathlib import Path
-import pandas as pd
-
 from gwf import Workflow, AnonymousTarget
 from gwf.workflow import collect
 
+# %% [markdown]
+"""
+Instantiate the workflow with the name of the project folder:
+"""
+
+# %%
+# instantiate the workflow
+gwf = Workflow(defaults={'account': 'your-project-folder-name'})
+
+
+# %% [markdown]
+"""
+Utility functions:
+"""
+
+# %%
 # utility function
 def modify_path(path, **kwargs):
     """
@@ -89,7 +101,6 @@ def modify_path(path, **kwargs):
     return new_path
 
 
-###############################################################################
 # %% [markdown]
 """
 ## Template functions:
@@ -236,7 +247,6 @@ def merge_names(paths, output_path):
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 
-###############################################################################
 # %% [markdown]
 """
 ## Workflow:
@@ -245,7 +255,7 @@ def merge_names(paths, output_path):
 # %%
 
 # instantiate the workflow
-gwf = Workflow(defaults={'account': 'ari-intern'})
+gwf = Workflow(defaults={'account': 'your-project-folder-name'})
 
 # input files for workflow
 input_file_names = ['data/input_file1.txt', 'data/input_file2.txt']

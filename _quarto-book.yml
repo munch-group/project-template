@@ -27,6 +27,7 @@ book:
   chapters:
     - index.qmd
     - workflow.py
+    - workflow_notebooks.py    
     - part: "Notebooks"
       chapters: 
       - notebooks/template.ipynb
