@@ -52,3 +52,6 @@ about:
   # summary: "Blah blah"
   # description: |
   #   "Blah blah"
+  #   "Blah blah"
+  dev_url: https://github.com/munch-group/template.git
+  doc_url: https://munch-group.org/template
