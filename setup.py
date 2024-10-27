@@ -10,7 +10,7 @@ with open(path.join(this_directory, 'requirements.txt'), encoding='utf-8') as f:
 
 setuptools.setup(
     name="template",
-    version="0.1.2",
+    version="0.1.3",
     author="Kasper Munch",
     author_email="kaspermunch@birc.au.dk",
     description="Project template",

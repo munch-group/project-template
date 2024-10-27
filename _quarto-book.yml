@@ -20,7 +20,7 @@ comments:
   hypothesis: true
 
 book:
-  repo-url: "https://github.com/munch-group/analysis-template"
+  repo-url: "https://github.com/munch-group/template"
   repo-actions: [edit, issue, source]  
   title: "Title of your project"
   author: "Joanna Doh"  
@@ -30,16 +30,16 @@ book:
     - workflow_notebooks.py    
     - part: "Notebooks"
       chapters: 
-      - notebooks/template.ipynb
+      - notebooks/example.ipynb
     - part: "Reports"
       chapters: 
-      - reports/template.qmd
+      - reports/example.qmd
     - part: "Tables"
       chapters: 
-      - tables/template.qmd
+      - tables/example.qmd
     - part: "Slides"
       chapters:
       # (the same files must be listed _quarto-slides.yml to render as slides)
-      - slides/template.qmd 
+      - slides/example.qmd 
      
 bibliography: references.bib
