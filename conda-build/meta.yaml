@@ -1,11 +1,11 @@
 {% set data = load_setup_py_data() %}
 
 package:
-  name: {{ data.get('name') }} 
+  name: library_name
   version: {{ data.get('version') }}  
 
 source:
-  git_url: https://github.com/munch-group/geneinfo.git
+  git_url: https://github.com/munch-group/library_name.git
 
 build:
   # noarch: python
@@ -20,15 +20,15 @@ requirements:
     - pip
   run:       # write here the list of libraries to look for your library dependencies
     - python
-    - jupyter
-    - ipython
-    - matplotlib>=3.0
-    - numpy>=1.1
-    - requests
-    - biopython
-    - goatools>=1.2
-    - pytables
-    - wget
+    # - jupyter
+    # - ipython
+    # - matplotlib>=3.0
+    # - numpy>=1.1
+    # - requests
+    # - biopython
+    # - goatools>=1.2
+    # - pytables
+    # - wget
 
 channels:    # write here the list of channels to look for your library dependencies
   # - uibcdf
@@ -41,13 +41,13 @@ dependencies:   # Keep this block with only these two packages
   
 test:
   imports:
-    - {{ data.get('name') }} 
+    - library_name
   # commands:
   #   - exercises --help    
 
 about:
-  home: {{ data.get('url') }}
+  home: https://github.com/munch-group/library_name.git
   license: MIT
-  summary: {{ data.get('description') }}
-  description: |
-    {{ data.get('long_description') }}
+  # summary: "Blah blah"
+  # description: |
+  #   "Blah blah"
