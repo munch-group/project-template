@@ -33,13 +33,13 @@ Denmark is .... {{< lipsum 3 >}}
 
 In Denmark, the workplace interaction is very informal and largely unaffected by seniority and age. 
 
-{{< embed ../notebooks/template.ipynb#doc-sampling echo=false >}}
+{{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
 
 I found that neither academic seniority or age of workplace individuals much affected how informal our interaction was (see @fig-danish-interaction). 
 
-{{< embed ../notebooks/template.ipynb#fig-danish-interaction >}}
+{{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
 
-{{< embed ../notebooks/template.ipynb#doc-formality-correlation echo=false >}}
+{{< embed ../notebooks/example.ipynb#doc-formality-correlation echo=false >}}
 
 <!-- Dummy text -->
 {{< lipsum 1 >}} 
@@ -60,12 +60,12 @@ This this investigation of `{python} params.sample_size` Danes...,
 
 @tbl-subjects lists the samples included in the analysis.
 
-{{< embed ../notebooks/template.ipynb#tbl-subjects echo=false >}}
+{{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
 
 <!-- Dummy text -->
 {{< lipsum 1 >}} 
 
-{{< embed ../notebooks/template.ipynb#doc-interviews echo=false >}}
+{{< embed ../notebooks/example.ipynb#doc-interviews echo=false >}}
 
 ## References
 
