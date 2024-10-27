@@ -9,23 +9,23 @@ with open(path.join(this_directory, 'requirements.txt'), encoding='utf-8') as f:
     requirements = f.read().split()
 
 setuptools.setup(
-    name="library_name",
+    name="template",
     version="0.1.1",
     author="Kasper Munch",
     author_email="kaspermunch@birc.au.dk",
     description="Project template",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/munch-group/library_name",
+    url="https://github.com/munch-group/template",
     packages=setuptools.find_packages(),
     include_package_data=True,
     entry_points = {
         'console_scripts': [
-            'hello=library_name.bar:baz',
+            'hello=template.bar:baz',
             ]
     },    
 
-    package_data={'library_name': [
+    package_data={'template': [
         'data/*.csv',
         'data/*.txt',
     ]},    

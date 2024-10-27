@@ -1,11 +1,11 @@
 {% set data = load_setup_py_data() %}
 
 package:
-  name: library_name
+  name: template
   version: {{ data.get('version') }}  
 
 source:
-  git_url: https://github.com/munch-group/library_name.git
+  git_url: https://github.com/munch-group/template.git
 
 build:
   # noarch: python
@@ -41,12 +41,12 @@ dependencies:   # Keep this block with only these two packages
   
 test:
   imports:
-    - library_name
+    - template
   # commands:
   #   - exercises --help    
 
 about:
-  home: https://github.com/munch-group/library_name.git
+  home: https://github.com/munch-group/template.git
   license: MIT
   # summary: "Blah blah"
   # description: |
